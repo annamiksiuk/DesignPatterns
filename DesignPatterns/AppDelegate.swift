@@ -20,6 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.makeKeyAndVisible()
         
         FactoryMethod().runCode()
+        AbstractFactory().runCode()
         
         return true
     }
