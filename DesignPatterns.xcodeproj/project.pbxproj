@@ -15,6 +15,8 @@
 		8430A3D12458CA940059A47C /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430A3D02458CA940059A47C /* Pattern.swift */; };
 		848A2F62248C346500E4F618 /* Caring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A2F61248C346500E4F618 /* Caring.swift */; };
 		848A2F64248C348A00E4F618 /* Eatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A2F63248C348A00E4F618 /* Eatable.swift */; };
+		848DA933248ED3A600FCD4A2 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DA932248ED3A600FCD4A2 /* Singleton.swift */; };
+		848DA935248ED56100FCD4A2 /* Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DA934248ED56100FCD4A2 /* Family.swift */; };
 		84BF2AFF2486E3EB00C4D77A /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF2AFE2486E3EB00C4D77A /* AbstractFactory.swift */; };
 		84CAF50E245DDF5E00FD0620 /* Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAF50D245DDF5E00FD0620 /* Toy.swift */; };
 		84CAF510245DDF9700FD0620 /* ToyShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAF50F245DDF9700FD0620 /* ToyShop.swift */; };
@@ -31,6 +33,8 @@
 		8430A3D02458CA940059A47C /* Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern.swift; sourceTree = "<group>"; };
 		848A2F61248C346500E4F618 /* Caring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caring.swift; sourceTree = "<group>"; };
 		848A2F63248C348A00E4F618 /* Eatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eatable.swift; sourceTree = "<group>"; };
+		848DA932248ED3A600FCD4A2 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		848DA934248ED56100FCD4A2 /* Family.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Family.swift; sourceTree = "<group>"; };
 		84BF2AFE2486E3EB00C4D77A /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		84CAF50D245DDF5E00FD0620 /* Toy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toy.swift; sourceTree = "<group>"; };
 		84CAF50F245DDF9700FD0620 /* ToyShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyShop.swift; sourceTree = "<group>"; };
@@ -66,6 +70,7 @@
 		8430A3B12458C1D70059A47C /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				848DA931248ED38800FCD4A2 /* Singleton */,
 				84BF2AFD2486E3C600C4D77A /* AbstractFactory */,
 				8430A3C62458C3160059A47C /* FactoryMethod */,
 				8430A3B22458C1D70059A47C /* AppDelegate.swift */,
@@ -86,6 +91,15 @@
 				84CAF50F245DDF9700FD0620 /* ToyShop.swift */,
 			);
 			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		848DA931248ED38800FCD4A2 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				848DA932248ED3A600FCD4A2 /* Singleton.swift */,
+				848DA934248ED56100FCD4A2 /* Family.swift */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 		84BF2AFD2486E3C600C4D77A /* AbstractFactory */ = {
@@ -171,6 +185,8 @@
 				8430A3B72458C1D70059A47C /* ViewController.swift in Sources */,
 				848A2F64248C348A00E4F618 /* Eatable.swift in Sources */,
 				8430A3B32458C1D70059A47C /* AppDelegate.swift in Sources */,
+				848DA933248ED3A600FCD4A2 /* Singleton.swift in Sources */,
+				848DA935248ED56100FCD4A2 /* Family.swift in Sources */,
 				84CAF50E245DDF5E00FD0620 /* Toy.swift in Sources */,
 				848A2F62248C346500E4F618 /* Caring.swift in Sources */,
 				8430A3CF2458CA760059A47C /* FactoryMethod.swift in Sources */,
