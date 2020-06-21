@@ -15,6 +15,15 @@
 		8430A3D12458CA940059A47C /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430A3D02458CA940059A47C /* Pattern.swift */; };
 		848A2F62248C346500E4F618 /* Caring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A2F61248C346500E4F618 /* Caring.swift */; };
 		848A2F64248C348A00E4F618 /* Eatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A2F63248C348A00E4F618 /* Eatable.swift */; };
+		848D2A1F249FBD2800C3E793 /* FamilyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D2A1E249FBD2800C3E793 /* FamilyBuilder.swift */; };
+		848D2A21249FC3E500C3E793 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D2A20249FC3E500C3E793 /* Builder.swift */; };
+		848D2A23249FD9E400C3E793 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D2A22249FD9E400C3E793 /* About.swift */; };
+		848D2A25249FD9FF00C3E793 /* SimpleFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D2A24249FD9FF00C3E793 /* SimpleFamily.swift */; };
+		848D2A27249FDA2000C3E793 /* SimpleFamilyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D2A26249FDA2000C3E793 /* SimpleFamilyBuilder.swift */; };
+		848D2A29249FDA4F00C3E793 /* Child.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D2A28249FDA4F00C3E793 /* Child.swift */; };
+		848D2A2B249FDA6900C3E793 /* OneParentFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D2A2A249FDA6900C3E793 /* OneParentFamily.swift */; };
+		848D2A2D249FDA8100C3E793 /* OneParentFamilyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D2A2C249FDA8100C3E793 /* OneParentFamilyBuilder.swift */; };
+		848D2A2F249FDAC000C3E793 /* Parent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D2A2E249FDAC000C3E793 /* Parent.swift */; };
 		848DA933248ED3A600FCD4A2 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DA932248ED3A600FCD4A2 /* Singleton.swift */; };
 		848DA935248ED56100FCD4A2 /* Family.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DA934248ED56100FCD4A2 /* Family.swift */; };
 		84BF2AFF2486E3EB00C4D77A /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF2AFE2486E3EB00C4D77A /* AbstractFactory.swift */; };
@@ -33,6 +42,15 @@
 		8430A3D02458CA940059A47C /* Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern.swift; sourceTree = "<group>"; };
 		848A2F61248C346500E4F618 /* Caring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caring.swift; sourceTree = "<group>"; };
 		848A2F63248C348A00E4F618 /* Eatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eatable.swift; sourceTree = "<group>"; };
+		848D2A1E249FBD2800C3E793 /* FamilyBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyBuilder.swift; sourceTree = "<group>"; };
+		848D2A20249FC3E500C3E793 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		848D2A22249FD9E400C3E793 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		848D2A24249FD9FF00C3E793 /* SimpleFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFamily.swift; sourceTree = "<group>"; };
+		848D2A26249FDA2000C3E793 /* SimpleFamilyBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleFamilyBuilder.swift; sourceTree = "<group>"; };
+		848D2A28249FDA4F00C3E793 /* Child.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child.swift; sourceTree = "<group>"; };
+		848D2A2A249FDA6900C3E793 /* OneParentFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneParentFamily.swift; sourceTree = "<group>"; };
+		848D2A2C249FDA8100C3E793 /* OneParentFamilyBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneParentFamilyBuilder.swift; sourceTree = "<group>"; };
+		848D2A2E249FDAC000C3E793 /* Parent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parent.swift; sourceTree = "<group>"; };
 		848DA932248ED3A600FCD4A2 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		848DA934248ED56100FCD4A2 /* Family.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Family.swift; sourceTree = "<group>"; };
 		84BF2AFE2486E3EB00C4D77A /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
@@ -70,6 +88,7 @@
 		8430A3B12458C1D70059A47C /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				848D2A1D249FBCEA00C3E793 /* Builder */,
 				848DA931248ED38800FCD4A2 /* Singleton */,
 				84BF2AFD2486E3C600C4D77A /* AbstractFactory */,
 				8430A3C62458C3160059A47C /* FactoryMethod */,
@@ -91,6 +110,22 @@
 				84CAF50F245DDF9700FD0620 /* ToyShop.swift */,
 			);
 			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		848D2A1D249FBCEA00C3E793 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				848D2A1E249FBD2800C3E793 /* FamilyBuilder.swift */,
+				848D2A20249FC3E500C3E793 /* Builder.swift */,
+				848D2A22249FD9E400C3E793 /* About.swift */,
+				848D2A24249FD9FF00C3E793 /* SimpleFamily.swift */,
+				848D2A26249FDA2000C3E793 /* SimpleFamilyBuilder.swift */,
+				848D2A28249FDA4F00C3E793 /* Child.swift */,
+				848D2A2A249FDA6900C3E793 /* OneParentFamily.swift */,
+				848D2A2C249FDA8100C3E793 /* OneParentFamilyBuilder.swift */,
+				848D2A2E249FDAC000C3E793 /* Parent.swift */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 		848DA931248ED38800FCD4A2 /* Singleton */ = {
@@ -185,13 +220,22 @@
 				8430A3B72458C1D70059A47C /* ViewController.swift in Sources */,
 				848A2F64248C348A00E4F618 /* Eatable.swift in Sources */,
 				8430A3B32458C1D70059A47C /* AppDelegate.swift in Sources */,
+				848D2A1F249FBD2800C3E793 /* FamilyBuilder.swift in Sources */,
 				848DA933248ED3A600FCD4A2 /* Singleton.swift in Sources */,
+				848D2A2D249FDA8100C3E793 /* OneParentFamilyBuilder.swift in Sources */,
 				848DA935248ED56100FCD4A2 /* Family.swift in Sources */,
 				84CAF50E245DDF5E00FD0620 /* Toy.swift in Sources */,
+				848D2A27249FDA2000C3E793 /* SimpleFamilyBuilder.swift in Sources */,
+				848D2A2F249FDAC000C3E793 /* Parent.swift in Sources */,
+				848D2A21249FC3E500C3E793 /* Builder.swift in Sources */,
 				848A2F62248C346500E4F618 /* Caring.swift in Sources */,
+				848D2A2B249FDA6900C3E793 /* OneParentFamily.swift in Sources */,
+				848D2A29249FDA4F00C3E793 /* Child.swift in Sources */,
+				848D2A23249FD9E400C3E793 /* About.swift in Sources */,
 				8430A3CF2458CA760059A47C /* FactoryMethod.swift in Sources */,
 				84CAF510245DDF9700FD0620 /* ToyShop.swift in Sources */,
 				8430A3D12458CA940059A47C /* Pattern.swift in Sources */,
+				848D2A25249FD9FF00C3E793 /* SimpleFamily.swift in Sources */,
 				84BF2AFF2486E3EB00C4D77A /* AbstractFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

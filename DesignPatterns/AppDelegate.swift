@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FactoryMethod().runCode()
         AbstractFactory().runCode()
         Singleton().runCode()
+        Builder().runCode()
         
         return true
     }
