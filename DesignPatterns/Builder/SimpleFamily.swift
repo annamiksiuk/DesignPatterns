@@ -9,6 +9,13 @@
 import Foundation
 
 class SimpleFamily {
+    required init(dad: Father? = nil, mum: Mum? = nil, children: [About & Child] = [Child & About](), granny: Granny? = nil) {
+        self.dad = dad
+        self.mum = mum
+        self.children = children
+        self.granny = granny
+    }
+    
     var dad: Father?
     var mum: Mum?
     var children = [Child & About]()

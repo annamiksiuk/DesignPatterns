@@ -13,6 +13,7 @@
 		8430A3BF2458C1D80059A47C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8430A3BD2458C1D80059A47C /* LaunchScreen.storyboard */; };
 		8430A3CF2458CA760059A47C /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430A3CE2458CA760059A47C /* FactoryMethod.swift */; };
 		8430A3D12458CA940059A47C /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430A3D02458CA940059A47C /* Pattern.swift */; };
+		845BA31424A9261700972895 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BA31324A9261700972895 /* Prototype.swift */; };
 		848A2F62248C346500E4F618 /* Caring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A2F61248C346500E4F618 /* Caring.swift */; };
 		848A2F64248C348A00E4F618 /* Eatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A2F63248C348A00E4F618 /* Eatable.swift */; };
 		848D2A1F249FBD2800C3E793 /* FamilyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D2A1E249FBD2800C3E793 /* FamilyBuilder.swift */; };
@@ -40,6 +41,7 @@
 		8430A3C02458C1D80059A47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8430A3CE2458CA760059A47C /* FactoryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
 		8430A3D02458CA940059A47C /* Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pattern.swift; sourceTree = "<group>"; };
+		845BA31324A9261700972895 /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 		848A2F61248C346500E4F618 /* Caring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caring.swift; sourceTree = "<group>"; };
 		848A2F63248C348A00E4F618 /* Eatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eatable.swift; sourceTree = "<group>"; };
 		848D2A1E249FBD2800C3E793 /* FamilyBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyBuilder.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		8430A3B12458C1D70059A47C /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				845BA31224A925E100972895 /* Prototype */,
 				848D2A1D249FBCEA00C3E793 /* Builder */,
 				848DA931248ED38800FCD4A2 /* Singleton */,
 				84BF2AFD2486E3C600C4D77A /* AbstractFactory */,
@@ -110,6 +113,14 @@
 				84CAF50F245DDF9700FD0620 /* ToyShop.swift */,
 			);
 			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		845BA31224A925E100972895 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				845BA31324A9261700972895 /* Prototype.swift */,
+			);
+			path = Prototype;
 			sourceTree = "<group>";
 		};
 		848D2A1D249FBCEA00C3E793 /* Builder */ = {
@@ -219,6 +230,7 @@
 			files = (
 				8430A3B72458C1D70059A47C /* ViewController.swift in Sources */,
 				848A2F64248C348A00E4F618 /* Eatable.swift in Sources */,
+				845BA31424A9261700972895 /* Prototype.swift in Sources */,
 				8430A3B32458C1D70059A47C /* AppDelegate.swift in Sources */,
 				848D2A1F249FBD2800C3E793 /* FamilyBuilder.swift in Sources */,
 				848DA933248ED3A600FCD4A2 /* Singleton.swift in Sources */,
