@@ -10,12 +10,8 @@ import Foundation
 
 class AbstractFactory: Pattern {
     func runCode() {
-        let relative = getCaringRelative(place: "home")
-
-        let food = relative.getFood()
-        food.eat()
-        let toy = relative.getToy()
-        toy.play()
+        let littleGirl = Girl()
+        littleGirl.getCare(from: getCaringRelative(place: "home"))
     }
 
     private func getCaringRelative(place: String) -> Caring {
@@ -24,5 +20,12 @@ class AbstractFactory: Pattern {
         } else {
             return Granny()
         }
+    }
+}
+
+extension Girl {
+    func getCare(from relative: Caring) {
+        relative.getFood().eat()
+        relative.getToy().play()
     }
 }
