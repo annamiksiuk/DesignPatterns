@@ -4,7 +4,9 @@
 
 Отвечают за удобное и безопасное создание новых объектов или целых семейств объектов.
 
-### **1. [Фабричный метод (Factory Method)](docs/FabricMethod.md)**
+### **1. [Фабричный метод (Factory Method)](docs/FabricMethod/FabricMethod.md)**
+
+### **2. [Абстрактная фабрика (Abstract Factory)](docs/AbstractFactory/AbstractFactory.md)**
 
 
 ## **Структурные (Structural Design Patterns)**
