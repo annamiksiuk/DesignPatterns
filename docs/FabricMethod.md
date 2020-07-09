@@ -11,11 +11,11 @@
 
 **Диаграммы**
 
-![Father](../fm_image1.png)
+![Father](fm_image1.png)
 
-![Toy](../fm_image2.png)
+![Toy](fm_image2.png)
 
-![ToyShop](../fm_image3.png)
+![ToyShop](fm_image3.png)
 
 
 **Код**
