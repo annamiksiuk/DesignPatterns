@@ -30,6 +30,12 @@
 		84BF2AFF2486E3EB00C4D77A /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF2AFE2486E3EB00C4D77A /* AbstractFactory.swift */; };
 		84CAF50E245DDF5E00FD0620 /* Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAF50D245DDF5E00FD0620 /* Toy.swift */; };
 		84CAF510245DDF9700FD0620 /* ToyShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAF50F245DDF9700FD0620 /* ToyShop.swift */; };
+		F51C210B24BE2677004539F4 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C210A24BE2677004539F4 /* Adapter.swift */; };
+		F51C210D24BE31BC004539F4 /* RespondConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C210C24BE31BC004539F4 /* RespondConverter.swift */; };
+		F51C210F24BE31DA004539F4 /* BabyResponding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C210E24BE31DA004539F4 /* BabyResponding.swift */; };
+		F51C211124BE31EE004539F4 /* Baby.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C211024BE31EE004539F4 /* Baby.swift */; };
+		F51C211324BE3205004539F4 /* Responding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C211224BE3205004539F4 /* Responding.swift */; };
+		F51C211524BE323D004539F4 /* BabyRespondAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C211424BE323D004539F4 /* BabyRespondAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +64,12 @@
 		84BF2AFE2486E3EB00C4D77A /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		84CAF50D245DDF5E00FD0620 /* Toy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toy.swift; sourceTree = "<group>"; };
 		84CAF50F245DDF9700FD0620 /* ToyShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyShop.swift; sourceTree = "<group>"; };
+		F51C210A24BE2677004539F4 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
+		F51C210C24BE31BC004539F4 /* RespondConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespondConverter.swift; sourceTree = "<group>"; };
+		F51C210E24BE31DA004539F4 /* BabyResponding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyResponding.swift; sourceTree = "<group>"; };
+		F51C211024BE31EE004539F4 /* Baby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby.swift; sourceTree = "<group>"; };
+		F51C211224BE3205004539F4 /* Responding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responding.swift; sourceTree = "<group>"; };
+		F51C211424BE323D004539F4 /* BabyRespondAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyRespondAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +102,7 @@
 		8430A3B12458C1D70059A47C /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				F51C210924BE2664004539F4 /* Adapter */,
 				845BA31224A925E100972895 /* Prototype */,
 				848D2A1D249FBCEA00C3E793 /* Builder */,
 				848DA931248ED38800FCD4A2 /* Singleton */,
@@ -156,6 +169,19 @@
 				848A2F63248C348A00E4F618 /* Eatable.swift */,
 			);
 			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		F51C210924BE2664004539F4 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				F51C210A24BE2677004539F4 /* Adapter.swift */,
+				F51C210C24BE31BC004539F4 /* RespondConverter.swift */,
+				F51C210E24BE31DA004539F4 /* BabyResponding.swift */,
+				F51C211024BE31EE004539F4 /* Baby.swift */,
+				F51C211224BE3205004539F4 /* Responding.swift */,
+				F51C211424BE323D004539F4 /* BabyRespondAdapter.swift */,
+			);
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +259,7 @@
 				845BA31424A9261700972895 /* Prototype.swift in Sources */,
 				8430A3B32458C1D70059A47C /* AppDelegate.swift in Sources */,
 				848D2A1F249FBD2800C3E793 /* FamilyBuilder.swift in Sources */,
+				F51C210D24BE31BC004539F4 /* RespondConverter.swift in Sources */,
 				848DA933248ED3A600FCD4A2 /* Singleton.swift in Sources */,
 				848D2A2D249FDA8100C3E793 /* OneParentFamilyBuilder.swift in Sources */,
 				848DA935248ED56100FCD4A2 /* Family.swift in Sources */,
@@ -241,13 +268,18 @@
 				848D2A2F249FDAC000C3E793 /* Parent.swift in Sources */,
 				848D2A21249FC3E500C3E793 /* Builder.swift in Sources */,
 				848A2F62248C346500E4F618 /* Caring.swift in Sources */,
+				F51C211324BE3205004539F4 /* Responding.swift in Sources */,
+				F51C210F24BE31DA004539F4 /* BabyResponding.swift in Sources */,
 				848D2A2B249FDA6900C3E793 /* OneParentFamily.swift in Sources */,
 				848D2A29249FDA4F00C3E793 /* Child.swift in Sources */,
 				848D2A23249FD9E400C3E793 /* About.swift in Sources */,
 				8430A3CF2458CA760059A47C /* FactoryMethod.swift in Sources */,
+				F51C210B24BE2677004539F4 /* Adapter.swift in Sources */,
+				F51C211524BE323D004539F4 /* BabyRespondAdapter.swift in Sources */,
 				84CAF510245DDF9700FD0620 /* ToyShop.swift in Sources */,
 				8430A3D12458CA940059A47C /* Pattern.swift in Sources */,
 				848D2A25249FD9FF00C3E793 /* SimpleFamily.swift in Sources */,
+				F51C211124BE31EE004539F4 /* Baby.swift in Sources */,
 				84BF2AFF2486E3EB00C4D77A /* AbstractFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

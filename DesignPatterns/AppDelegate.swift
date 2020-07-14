@@ -24,6 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Singleton().runCode()
         Builder().runCode()
         Prototype().runCode()
+
+        Adapter().runCode()
         
         return true
     }
