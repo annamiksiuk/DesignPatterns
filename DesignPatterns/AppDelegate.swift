@@ -26,6 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Prototype().runCode()
 
         Adapter().runCode()
+        Decorator().runCode()
         
         return true
     }

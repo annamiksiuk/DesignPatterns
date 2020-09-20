@@ -22,6 +22,7 @@
 Отвечают за построение удобных в поддержке иерархий классов.
 
 ### **1. [Адаптер (Adapter)](docs/Adapter/Adapter.md)**
+### **2. [Декоратор (Decorator)](docs/Decorator/Decorator.md)**
 
 
 

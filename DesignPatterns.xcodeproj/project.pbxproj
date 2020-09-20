@@ -36,6 +36,11 @@
 		F51C211124BE31EE004539F4 /* Baby.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C211024BE31EE004539F4 /* Baby.swift */; };
 		F51C211324BE3205004539F4 /* Responding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C211224BE3205004539F4 /* Responding.swift */; };
 		F51C211524BE323D004539F4 /* BabyRespondAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C211424BE323D004539F4 /* BabyRespondAdapter.swift */; };
+		F5C66B2A2517DB840033613B /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C66B292517DB840033613B /* Decorator.swift */; };
+		F5C66B2C2517E10F0033613B /* FamilyFinancesCounting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C66B2B2517E10F0033613B /* FamilyFinancesCounting.swift */; };
+		F5C66B2E2517E1250033613B /* FamilyFinances.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C66B2D2517E1250033613B /* FamilyFinances.swift */; };
+		F5C66B302517E19F0033613B /* Shopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C66B2F2517E19F0033613B /* Shopping.swift */; };
+		F5C66B322517E1D00033613B /* Father.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C66B312517E1D00033613B /* Father.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +75,11 @@
 		F51C211024BE31EE004539F4 /* Baby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby.swift; sourceTree = "<group>"; };
 		F51C211224BE3205004539F4 /* Responding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responding.swift; sourceTree = "<group>"; };
 		F51C211424BE323D004539F4 /* BabyRespondAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyRespondAdapter.swift; sourceTree = "<group>"; };
+		F5C66B292517DB840033613B /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
+		F5C66B2B2517E10F0033613B /* FamilyFinancesCounting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyFinancesCounting.swift; sourceTree = "<group>"; };
+		F5C66B2D2517E1250033613B /* FamilyFinances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyFinances.swift; sourceTree = "<group>"; };
+		F5C66B2F2517E19F0033613B /* Shopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping.swift; sourceTree = "<group>"; };
+		F5C66B312517E1D00033613B /* Father.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Father.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,7 @@
 		8430A3B12458C1D70059A47C /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				F5C66B282517DA730033613B /* Decorator */,
 				F51C210924BE2664004539F4 /* Adapter */,
 				845BA31224A925E100972895 /* Prototype */,
 				848D2A1D249FBCEA00C3E793 /* Builder */,
@@ -124,6 +135,8 @@
 				8430A3CE2458CA760059A47C /* FactoryMethod.swift */,
 				84CAF50D245DDF5E00FD0620 /* Toy.swift */,
 				84CAF50F245DDF9700FD0620 /* ToyShop.swift */,
+				F5C66B2F2517E19F0033613B /* Shopping.swift */,
+				F5C66B312517E1D00033613B /* Father.swift */,
 			);
 			path = FactoryMethod;
 			sourceTree = "<group>";
@@ -182,6 +195,16 @@
 				F51C211424BE323D004539F4 /* BabyRespondAdapter.swift */,
 			);
 			path = Adapter;
+			sourceTree = "<group>";
+		};
+		F5C66B282517DA730033613B /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				F5C66B292517DB840033613B /* Decorator.swift */,
+				F5C66B2B2517E10F0033613B /* FamilyFinancesCounting.swift */,
+				F5C66B2D2517E1250033613B /* FamilyFinances.swift */,
+			);
+			path = Decorator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8430A3B72458C1D70059A47C /* ViewController.swift in Sources */,
+				F5C66B322517E1D00033613B /* Father.swift in Sources */,
 				848A2F64248C348A00E4F618 /* Eatable.swift in Sources */,
 				845BA31424A9261700972895 /* Prototype.swift in Sources */,
 				8430A3B32458C1D70059A47C /* AppDelegate.swift in Sources */,
@@ -265,11 +289,15 @@
 				848DA935248ED56100FCD4A2 /* Family.swift in Sources */,
 				84CAF50E245DDF5E00FD0620 /* Toy.swift in Sources */,
 				848D2A27249FDA2000C3E793 /* SimpleFamilyBuilder.swift in Sources */,
+				F5C66B302517E19F0033613B /* Shopping.swift in Sources */,
 				848D2A2F249FDAC000C3E793 /* Parent.swift in Sources */,
 				848D2A21249FC3E500C3E793 /* Builder.swift in Sources */,
+				F5C66B2A2517DB840033613B /* Decorator.swift in Sources */,
 				848A2F62248C346500E4F618 /* Caring.swift in Sources */,
+				F5C66B2C2517E10F0033613B /* FamilyFinancesCounting.swift in Sources */,
 				F51C211324BE3205004539F4 /* Responding.swift in Sources */,
 				F51C210F24BE31DA004539F4 /* BabyResponding.swift in Sources */,
+				F5C66B2E2517E1250033613B /* FamilyFinances.swift in Sources */,
 				848D2A2B249FDA6900C3E793 /* OneParentFamily.swift in Sources */,
 				848D2A29249FDA4F00C3E793 /* Child.swift in Sources */,
 				848D2A23249FD9E400C3E793 /* About.swift in Sources */,

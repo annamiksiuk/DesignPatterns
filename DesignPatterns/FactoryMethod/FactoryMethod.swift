@@ -20,9 +20,3 @@ class FactoryMethod: Pattern {
         }
     }
 }
-
-class Father {
-    func buyToy(from shop: ToyShop) -> Toy {
-        return shop.sellToy()
-    }
-}
