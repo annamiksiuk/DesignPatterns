@@ -23,6 +23,7 @@
 
 ### **1. [Адаптер (Adapter)](docs/Adapter/Adapter.md)**
 ### **2. [Декоратор (Decorator)](docs/Decorator/Decorator.md)**
+### **3. [Мост (Bridge)](docs/Bridge/Bridge.md)**
 
 
 

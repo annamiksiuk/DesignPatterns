@@ -27,6 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         Adapter().runCode()
         Decorator().runCode()
+        Bridge().runCode()
         
         return true
     }

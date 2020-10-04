@@ -36,6 +36,10 @@
 		F51C211124BE31EE004539F4 /* Baby.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C211024BE31EE004539F4 /* Baby.swift */; };
 		F51C211324BE3205004539F4 /* Responding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C211224BE3205004539F4 /* Responding.swift */; };
 		F51C211524BE323D004539F4 /* BabyRespondAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C211424BE323D004539F4 /* BabyRespondAdapter.swift */; };
+		F566E40C252A1F8400183D73 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566E40B252A1F8400183D73 /* Bridge.swift */; };
+		F566E40E252A4FAB00183D73 /* ShoppingMall.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566E40D252A4FAB00183D73 /* ShoppingMall.swift */; };
+		F566E410252A4FC200183D73 /* Bestsellers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566E40F252A4FC200183D73 /* Bestsellers.swift */; };
+		F566E412252A5B5800183D73 /* ShoppingMallService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566E411252A5B5800183D73 /* ShoppingMallService.swift */; };
 		F5C66B2A2517DB840033613B /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C66B292517DB840033613B /* Decorator.swift */; };
 		F5C66B2C2517E10F0033613B /* FamilyFinancesCounting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C66B2B2517E10F0033613B /* FamilyFinancesCounting.swift */; };
 		F5C66B2E2517E1250033613B /* FamilyFinances.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C66B2D2517E1250033613B /* FamilyFinances.swift */; };
@@ -75,6 +79,10 @@
 		F51C211024BE31EE004539F4 /* Baby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby.swift; sourceTree = "<group>"; };
 		F51C211224BE3205004539F4 /* Responding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responding.swift; sourceTree = "<group>"; };
 		F51C211424BE323D004539F4 /* BabyRespondAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyRespondAdapter.swift; sourceTree = "<group>"; };
+		F566E40B252A1F8400183D73 /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		F566E40D252A4FAB00183D73 /* ShoppingMall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingMall.swift; sourceTree = "<group>"; };
+		F566E40F252A4FC200183D73 /* Bestsellers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bestsellers.swift; sourceTree = "<group>"; };
+		F566E411252A5B5800183D73 /* ShoppingMallService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingMallService.swift; sourceTree = "<group>"; };
 		F5C66B292517DB840033613B /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
 		F5C66B2B2517E10F0033613B /* FamilyFinancesCounting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyFinancesCounting.swift; sourceTree = "<group>"; };
 		F5C66B2D2517E1250033613B /* FamilyFinances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyFinances.swift; sourceTree = "<group>"; };
@@ -112,6 +120,7 @@
 		8430A3B12458C1D70059A47C /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				F566E40A252A1F5800183D73 /* Bridge */,
 				F5C66B282517DA730033613B /* Decorator */,
 				F51C210924BE2664004539F4 /* Adapter */,
 				845BA31224A925E100972895 /* Prototype */,
@@ -195,6 +204,17 @@
 				F51C211424BE323D004539F4 /* BabyRespondAdapter.swift */,
 			);
 			path = Adapter;
+			sourceTree = "<group>";
+		};
+		F566E40A252A1F5800183D73 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				F566E40F252A4FC200183D73 /* Bestsellers.swift */,
+				F566E40B252A1F8400183D73 /* Bridge.swift */,
+				F566E40D252A4FAB00183D73 /* ShoppingMall.swift */,
+				F566E411252A5B5800183D73 /* ShoppingMallService.swift */,
+			);
+			path = Bridge;
 			sourceTree = "<group>";
 		};
 		F5C66B282517DA730033613B /* Decorator */ = {
@@ -296,11 +316,15 @@
 				848A2F62248C346500E4F618 /* Caring.swift in Sources */,
 				F5C66B2C2517E10F0033613B /* FamilyFinancesCounting.swift in Sources */,
 				F51C211324BE3205004539F4 /* Responding.swift in Sources */,
+				F566E40E252A4FAB00183D73 /* ShoppingMall.swift in Sources */,
 				F51C210F24BE31DA004539F4 /* BabyResponding.swift in Sources */,
 				F5C66B2E2517E1250033613B /* FamilyFinances.swift in Sources */,
 				848D2A2B249FDA6900C3E793 /* OneParentFamily.swift in Sources */,
 				848D2A29249FDA4F00C3E793 /* Child.swift in Sources */,
+				F566E40C252A1F8400183D73 /* Bridge.swift in Sources */,
 				848D2A23249FD9E400C3E793 /* About.swift in Sources */,
+				F566E410252A4FC200183D73 /* Bestsellers.swift in Sources */,
+				F566E412252A5B5800183D73 /* ShoppingMallService.swift in Sources */,
 				8430A3CF2458CA760059A47C /* FactoryMethod.swift in Sources */,
 				F51C210B24BE2677004539F4 /* Adapter.swift in Sources */,
 				F51C211524BE323D004539F4 /* BabyRespondAdapter.swift in Sources */,
