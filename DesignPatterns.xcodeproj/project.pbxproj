@@ -36,6 +36,11 @@
 		F51C211124BE31EE004539F4 /* Baby.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C211024BE31EE004539F4 /* Baby.swift */; };
 		F51C211324BE3205004539F4 /* Responding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C211224BE3205004539F4 /* Responding.swift */; };
 		F51C211524BE323D004539F4 /* BabyRespondAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C211424BE323D004539F4 /* BabyRespondAdapter.swift */; };
+		F55EE34C253C9D8200A5A242 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55EE34B253C9D8200A5A242 /* Facade.swift */; };
+		F55EE34E253CBD6400A5A242 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55EE34D253CBD6400A5A242 /* Shop.swift */; };
+		F55EE350253CBD8800A5A242 /* ShoppingMallManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55EE34F253CBD8800A5A242 /* ShoppingMallManaging.swift */; };
+		F55EE352253CBDA200A5A242 /* SignboardDepartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55EE351253CBDA200A5A242 /* SignboardDepartment.swift */; };
+		F55EE354253CDD7E00A5A242 /* ShoppingMallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55EE353253CDD7E00A5A242 /* ShoppingMallManager.swift */; };
 		F566E40C252A1F8400183D73 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566E40B252A1F8400183D73 /* Bridge.swift */; };
 		F566E40E252A4FAB00183D73 /* ShoppingMall.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566E40D252A4FAB00183D73 /* ShoppingMall.swift */; };
 		F566E410252A4FC200183D73 /* Bestsellers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F566E40F252A4FC200183D73 /* Bestsellers.swift */; };
@@ -79,6 +84,11 @@
 		F51C211024BE31EE004539F4 /* Baby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby.swift; sourceTree = "<group>"; };
 		F51C211224BE3205004539F4 /* Responding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responding.swift; sourceTree = "<group>"; };
 		F51C211424BE323D004539F4 /* BabyRespondAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyRespondAdapter.swift; sourceTree = "<group>"; };
+		F55EE34B253C9D8200A5A242 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		F55EE34D253CBD6400A5A242 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		F55EE34F253CBD8800A5A242 /* ShoppingMallManaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingMallManaging.swift; sourceTree = "<group>"; };
+		F55EE351253CBDA200A5A242 /* SignboardDepartment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignboardDepartment.swift; sourceTree = "<group>"; };
+		F55EE353253CDD7E00A5A242 /* ShoppingMallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingMallManager.swift; sourceTree = "<group>"; };
 		F566E40B252A1F8400183D73 /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
 		F566E40D252A4FAB00183D73 /* ShoppingMall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingMall.swift; sourceTree = "<group>"; };
 		F566E40F252A4FC200183D73 /* Bestsellers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bestsellers.swift; sourceTree = "<group>"; };
@@ -120,6 +130,7 @@
 		8430A3B12458C1D70059A47C /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				F55EE34A253C9D7100A5A242 /* Facade */,
 				F566E40A252A1F5800183D73 /* Bridge */,
 				F5C66B282517DA730033613B /* Decorator */,
 				F51C210924BE2664004539F4 /* Adapter */,
@@ -204,6 +215,18 @@
 				F51C211424BE323D004539F4 /* BabyRespondAdapter.swift */,
 			);
 			path = Adapter;
+			sourceTree = "<group>";
+		};
+		F55EE34A253C9D7100A5A242 /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				F55EE34B253C9D8200A5A242 /* Facade.swift */,
+				F55EE34D253CBD6400A5A242 /* Shop.swift */,
+				F55EE34F253CBD8800A5A242 /* ShoppingMallManaging.swift */,
+				F55EE351253CBDA200A5A242 /* SignboardDepartment.swift */,
+				F55EE353253CDD7E00A5A242 /* ShoppingMallManager.swift */,
+			);
+			path = Facade;
 			sourceTree = "<group>";
 		};
 		F566E40A252A1F5800183D73 /* Bridge */ = {
@@ -304,6 +327,7 @@
 				8430A3B32458C1D70059A47C /* AppDelegate.swift in Sources */,
 				848D2A1F249FBD2800C3E793 /* FamilyBuilder.swift in Sources */,
 				F51C210D24BE31BC004539F4 /* RespondConverter.swift in Sources */,
+				F55EE34C253C9D8200A5A242 /* Facade.swift in Sources */,
 				848DA933248ED3A600FCD4A2 /* Singleton.swift in Sources */,
 				848D2A2D249FDA8100C3E793 /* OneParentFamilyBuilder.swift in Sources */,
 				848DA935248ED56100FCD4A2 /* Family.swift in Sources */,
@@ -324,11 +348,15 @@
 				F566E40C252A1F8400183D73 /* Bridge.swift in Sources */,
 				848D2A23249FD9E400C3E793 /* About.swift in Sources */,
 				F566E410252A4FC200183D73 /* Bestsellers.swift in Sources */,
+				F55EE350253CBD8800A5A242 /* ShoppingMallManaging.swift in Sources */,
 				F566E412252A5B5800183D73 /* ShoppingMallService.swift in Sources */,
 				8430A3CF2458CA760059A47C /* FactoryMethod.swift in Sources */,
 				F51C210B24BE2677004539F4 /* Adapter.swift in Sources */,
 				F51C211524BE323D004539F4 /* BabyRespondAdapter.swift in Sources */,
+				F55EE354253CDD7E00A5A242 /* ShoppingMallManager.swift in Sources */,
+				F55EE352253CBDA200A5A242 /* SignboardDepartment.swift in Sources */,
 				84CAF510245DDF9700FD0620 /* ToyShop.swift in Sources */,
+				F55EE34E253CBD6400A5A242 /* Shop.swift in Sources */,
 				8430A3D12458CA940059A47C /* Pattern.swift in Sources */,
 				848D2A25249FD9FF00C3E793 /* SimpleFamily.swift in Sources */,
 				F51C211124BE31EE004539F4 /* Baby.swift in Sources */,
