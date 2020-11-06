@@ -29,6 +29,8 @@
 
 ### **4. [Фасад (Facade)](docs/Facade/Facade.md)**
 
+### **5. [Компоновщик (Composite)](docs/Composite/Composite.md)**
+
 
 
 ## **Поведенческие (Behavioral Design Patterns)**

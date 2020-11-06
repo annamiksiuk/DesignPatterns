@@ -36,6 +36,7 @@
 		F51C211124BE31EE004539F4 /* Baby.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C211024BE31EE004539F4 /* Baby.swift */; };
 		F51C211324BE3205004539F4 /* Responding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C211224BE3205004539F4 /* Responding.swift */; };
 		F51C211524BE323D004539F4 /* BabyRespondAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51C211424BE323D004539F4 /* BabyRespondAdapter.swift */; };
+		F528621D254F3D3500E81C60 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F528621C254F3D3500E81C60 /* Composite.swift */; };
 		F55EE34C253C9D8200A5A242 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55EE34B253C9D8200A5A242 /* Facade.swift */; };
 		F55EE34E253CBD6400A5A242 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55EE34D253CBD6400A5A242 /* Shop.swift */; };
 		F55EE350253CBD8800A5A242 /* ShoppingMallManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55EE34F253CBD8800A5A242 /* ShoppingMallManaging.swift */; };
@@ -50,6 +51,9 @@
 		F5C66B2E2517E1250033613B /* FamilyFinances.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C66B2D2517E1250033613B /* FamilyFinances.swift */; };
 		F5C66B302517E19F0033613B /* Shopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C66B2F2517E19F0033613B /* Shopping.swift */; };
 		F5C66B322517E1D00033613B /* Father.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C66B312517E1D00033613B /* Father.swift */; };
+		F5E3A70F2555E16300AD6090 /* Accountant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3A70E2555E16200AD6090 /* Accountant.swift */; };
+		F5E3A7122555E17700AD6090 /* Renting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3A7112555E17700AD6090 /* Renting.swift */; };
+		F5E3A7152555E19700AD6090 /* RentingComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E3A7142555E19700AD6090 /* RentingComposite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +88,7 @@
 		F51C211024BE31EE004539F4 /* Baby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby.swift; sourceTree = "<group>"; };
 		F51C211224BE3205004539F4 /* Responding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responding.swift; sourceTree = "<group>"; };
 		F51C211424BE323D004539F4 /* BabyRespondAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyRespondAdapter.swift; sourceTree = "<group>"; };
+		F528621C254F3D3500E81C60 /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
 		F55EE34B253C9D8200A5A242 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
 		F55EE34D253CBD6400A5A242 /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 		F55EE34F253CBD8800A5A242 /* ShoppingMallManaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingMallManaging.swift; sourceTree = "<group>"; };
@@ -98,6 +103,9 @@
 		F5C66B2D2517E1250033613B /* FamilyFinances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyFinances.swift; sourceTree = "<group>"; };
 		F5C66B2F2517E19F0033613B /* Shopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping.swift; sourceTree = "<group>"; };
 		F5C66B312517E1D00033613B /* Father.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Father.swift; sourceTree = "<group>"; };
+		F5E3A70E2555E16200AD6090 /* Accountant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accountant.swift; sourceTree = "<group>"; };
+		F5E3A7112555E17700AD6090 /* Renting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renting.swift; sourceTree = "<group>"; };
+		F5E3A7142555E19700AD6090 /* RentingComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentingComposite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +138,7 @@
 		8430A3B12458C1D70059A47C /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				F528621B254F3D1B00E81C60 /* Composite */,
 				F55EE34A253C9D7100A5A242 /* Facade */,
 				F566E40A252A1F5800183D73 /* Bridge */,
 				F5C66B282517DA730033613B /* Decorator */,
@@ -215,6 +224,17 @@
 				F51C211424BE323D004539F4 /* BabyRespondAdapter.swift */,
 			);
 			path = Adapter;
+			sourceTree = "<group>";
+		};
+		F528621B254F3D1B00E81C60 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				F528621C254F3D3500E81C60 /* Composite.swift */,
+				F5E3A70E2555E16200AD6090 /* Accountant.swift */,
+				F5E3A7112555E17700AD6090 /* Renting.swift */,
+				F5E3A7142555E19700AD6090 /* RentingComposite.swift */,
+			);
+			path = Composite;
 			sourceTree = "<group>";
 		};
 		F55EE34A253C9D7100A5A242 /* Facade */ = {
@@ -322,6 +342,7 @@
 			files = (
 				8430A3B72458C1D70059A47C /* ViewController.swift in Sources */,
 				F5C66B322517E1D00033613B /* Father.swift in Sources */,
+				F5E3A7152555E19700AD6090 /* RentingComposite.swift in Sources */,
 				848A2F64248C348A00E4F618 /* Eatable.swift in Sources */,
 				845BA31424A9261700972895 /* Prototype.swift in Sources */,
 				8430A3B32458C1D70059A47C /* AppDelegate.swift in Sources */,
@@ -333,6 +354,7 @@
 				848DA935248ED56100FCD4A2 /* Family.swift in Sources */,
 				84CAF50E245DDF5E00FD0620 /* Toy.swift in Sources */,
 				848D2A27249FDA2000C3E793 /* SimpleFamilyBuilder.swift in Sources */,
+				F528621D254F3D3500E81C60 /* Composite.swift in Sources */,
 				F5C66B302517E19F0033613B /* Shopping.swift in Sources */,
 				848D2A2F249FDAC000C3E793 /* Parent.swift in Sources */,
 				848D2A21249FC3E500C3E793 /* Builder.swift in Sources */,
@@ -349,10 +371,12 @@
 				848D2A23249FD9E400C3E793 /* About.swift in Sources */,
 				F566E410252A4FC200183D73 /* Bestsellers.swift in Sources */,
 				F55EE350253CBD8800A5A242 /* ShoppingMallManaging.swift in Sources */,
+				F5E3A70F2555E16300AD6090 /* Accountant.swift in Sources */,
 				F566E412252A5B5800183D73 /* ShoppingMallService.swift in Sources */,
 				8430A3CF2458CA760059A47C /* FactoryMethod.swift in Sources */,
 				F51C210B24BE2677004539F4 /* Adapter.swift in Sources */,
 				F51C211524BE323D004539F4 /* BabyRespondAdapter.swift in Sources */,
+				F5E3A7122555E17700AD6090 /* Renting.swift in Sources */,
 				F55EE354253CDD7E00A5A242 /* ShoppingMallManager.swift in Sources */,
 				F55EE352253CBDA200A5A242 /* SignboardDepartment.swift in Sources */,
 				84CAF510245DDF9700FD0620 /* ToyShop.swift in Sources */,

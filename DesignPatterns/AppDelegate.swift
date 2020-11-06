@@ -29,6 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Decorator().runCode()
         Bridge().runCode()
         Facade().runCode()
+        Composite().runCode()
         
         return true
     }
